@@ -1,0 +1,71 @@
+
+> time@0.11.3 install /home/cube26/hubot/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory `/home/cube26/hubot/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  SOLINK_MODULE(target) Release/obj.target/time.node: Finished
+  COPY Release/time.node
+make: Leaving directory `/home/cube26/hubot/node_modules/time/build'
+Cannot load StringPrep-0.1.0 bindings. You may need to `npm install node-stringprep'
+hubot is online, talk.google.com!
+[Tue Jul 07 2015 11:47:07 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Tue Jul 07 2015 11:47:07 GMT+0000 (UTC)] INFO /home/cube26/hubot/node_modules/hubot-9gag/src/9gag.coffee is using deprecated documentation syntax
+
+> time@0.11.3 install /home/cube26/hubot/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory `/home/cube26/hubot/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  SOLINK_MODULE(target) Release/obj.target/time.node: Finished
+  COPY Release/time.node
+make: Leaving directory `/home/cube26/hubot/node_modules/time/build'
+[Tue Jul 07 2015 11:52:50 GMT+0000 (UTC)] ERROR Error: EBADF, read
+  at Error (native)
+
+[1G[0Jhubot> [8G[Tue Jul 07 2015 11:52:50 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Tue Jul 07 2015 11:52:51 GMT+0000 (UTC)] INFO /home/cube26/hubot/node_modules/hubot-9gag/src/9gag.coffee is using deprecated documentation syntax
+
+> time@0.11.3 install /home/cube26/hubot/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory `/home/cube26/hubot/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  SOLINK_MODULE(target) Release/obj.target/time.node: Finished
+  COPY Release/time.node
+make: Leaving directory `/home/cube26/hubot/node_modules/time/build'
+Cannot load StringPrep-0.1.0 bindings. You may need to `npm install node-stringprep'
+hubot is online, talk.google.com!
+[Tue Jul 07 2015 11:54:03 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Tue Jul 07 2015 11:54:03 GMT+0000 (UTC)] INFO /home/cube26/hubot/node_modules/hubot-9gag/src/9gag.coffee is using deprecated documentation syntax
+
+> time@0.11.3 install /home/cube26/hubot/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory `/home/cube26/hubot/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  SOLINK_MODULE(target) Release/obj.target/time.node: Finished
+  COPY Release/time.node
+make: Leaving directory `/home/cube26/hubot/node_modules/time/build'
+Cannot load StringPrep-0.1.0 bindings. You may need to `npm install node-stringprep'
+hubot is online, talk.google.com!
+[Wed Jul 08 2015 05:31:18 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Wed Jul 08 2015 05:31:19 GMT+0000 (UTC)] INFO /home/cube26/hubot/node_modules/hubot-9gag/src/9gag.coffee is using deprecated documentation syntax
+
+> time@0.11.3 install /home/cube26/hubot/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory `/home/cube26/hubot/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  SOLINK_MODULE(target) Release/obj.target/time.node: Finished
+  COPY Release/time.node
+make: Leaving directory `/home/cube26/hubot/node_modules/time/build'
+Cannot load StringPrep-0.1.0 bindings. You may need to `npm install node-stringprep'
+hubot is online, talk.google.com!
+[Wed Jul 08 2015 05:36:14 GMT+0000 (UTC)] INFO hubot-redis-brain: Using default redis on localhost:6379
+[Wed Jul 08 2015 05:36:14 GMT+0000 (UTC)] INFO /home/cube26/hubot/node_modules/hubot-9gag/src/9gag.coffee is using deprecated documentation syntax

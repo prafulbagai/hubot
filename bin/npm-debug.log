@@ -1,0 +1,353 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies loading dependencies from /home/cube26/hubot/package.json
+6 verbose install where, deps [ '/home/cube26/hubot',
+6 verbose install   [ 'hubot',
+6 verbose install     'hubot-diagnostics',
+6 verbose install     'hubot-google-images',
+6 verbose install     'hubot-google-translate',
+6 verbose install     'hubot-gtalk',
+6 verbose install     'hubot-help',
+6 verbose install     'hubot-heroku-keepalive',
+6 verbose install     'hubot-maps',
+6 verbose install     'hubot-pugme',
+6 verbose install     'hubot-redis-brain',
+6 verbose install     'hubot-rules',
+6 verbose install     'hubot-scripts',
+6 verbose install     'hubot-shipit' ] ]
+7 verbose install where, peers [ '/home/cube26/hubot', [] ]
+8 verbose installManyTop reading for lifecycle /home/cube26/hubot/package.json
+9 info preinstall hubot@0.0.0
+10 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot/package.json
+11 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-2048/package.json
+12 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-9gag/package.json
+13 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-ambush/package.json
+14 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-calculator/package.json
+15 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-codinglove/package.json
+16 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-cute-me/package.json
+17 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-devops-reactions/package.json
+18 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-diagnostics/package.json
+19 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-google-calendar/package.json
+20 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-google-images/package.json
+21 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-google-translate/package.json
+22 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-gtalk/package.json
+23 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-help/package.json
+24 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-heroku-keepalive/package.json
+25 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-maps/package.json
+26 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-motivate/package.json
+27 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-principles/package.json
+28 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-pugme/package.json
+29 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-reaction/package.json
+30 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-redis-brain/package.json
+31 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-rules/package.json
+32 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-scripts/package.json
+33 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-shipit/package.json
+34 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-spot/package.json
+35 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-standup-alarm/package.json
+36 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-tell/package.json
+37 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-thank-you/package.json
+38 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/hubot-victory/package.json
+39 verbose installManyTop reading scoped package data from /home/cube26/hubot/node_modules/time/package.json
+40 info package.json hubot-gtalk@2.0.2 No license field.
+41 info package.json hubot-principles@1.0.0 license should be a valid SPDX license expression
+42 info package.json hubot-scripts@2.16.1 No license field.
+43 verbose readDependencies loading dependencies from /home/cube26/hubot/package.json
+44 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot/package.json
+45 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-2048/package.json
+46 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-9gag/package.json
+47 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-ambush/package.json
+48 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-calculator/package.json
+49 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-codinglove/package.json
+50 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-cute-me/package.json
+51 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-devops-reactions/package.json
+52 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-diagnostics/package.json
+53 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-google-calendar/package.json
+54 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-google-images/package.json
+55 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-google-translate/package.json
+56 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-gtalk/package.json
+57 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-help/package.json
+58 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-heroku-keepalive/package.json
+59 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-maps/package.json
+60 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-motivate/package.json
+61 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-principles/package.json
+62 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-pugme/package.json
+63 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-reaction/package.json
+64 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-redis-brain/package.json
+65 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-rules/package.json
+66 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-scripts/package.json
+67 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-shipit/package.json
+68 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-spot/package.json
+69 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-standup-alarm/package.json
+70 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-tell/package.json
+71 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-thank-you/package.json
+72 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/hubot-victory/package.json
+73 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/time/package.json
+74 verbose targetResolver reading package data from /home/cube26/hubot/node_modules/.bin/hubot/package.json
+75 verbose already installed skipping hubot-help@^0.1.1 /home/cube26/hubot
+76 verbose already installed skipping hubot-heroku-keepalive@0.0.4 /home/cube26/hubot
+77 verbose already installed skipping hubot-maps@0.0.2 /home/cube26/hubot
+78 verbose already installed skipping hubot-pugme@^0.1.0 /home/cube26/hubot
+79 verbose already installed skipping hubot-redis-brain@0.0.3 /home/cube26/hubot
+80 verbose already installed skipping hubot-rules@^0.1.1 /home/cube26/hubot
+81 verbose already installed skipping hubot-scripts@^2.16.1 /home/cube26/hubot
+82 verbose already installed skipping hubot-shipit@^0.2.0 /home/cube26/hubot
+83 verbose already installed skipping hubot@^2.13.2 /home/cube26/hubot
+84 verbose already installed skipping hubot-diagnostics@0.0.1 /home/cube26/hubot
+85 verbose already installed skipping hubot-google-images@^0.1.5 /home/cube26/hubot
+86 verbose already installed skipping hubot-google-translate@^0.2.0 /home/cube26/hubot
+87 verbose already installed skipping hubot-gtalk@^2.0.2 /home/cube26/hubot
+88 silly install resolved []
+89 info build /home/cube26/hubot
+90 info linkStuff hubot@0.0.0
+91 silly linkStuff hubot@0.0.0 has /home/cube26 as its parent node_modules
+92 verbose linkBins hubot@0.0.0
+93 verbose linkMans hubot@0.0.0
+94 verbose rebuildBundles hubot@0.0.0
+95 verbose rebuildBundles [ '.bin',
+95 verbose rebuildBundles   'hubot',
+95 verbose rebuildBundles   'hubot-2048',
+95 verbose rebuildBundles   'hubot-9gag',
+95 verbose rebuildBundles   'hubot-ambush',
+95 verbose rebuildBundles   'hubot-calculator',
+95 verbose rebuildBundles   'hubot-codinglove',
+95 verbose rebuildBundles   'hubot-cute-me',
+95 verbose rebuildBundles   'hubot-devops-reactions',
+95 verbose rebuildBundles   'hubot-diagnostics',
+95 verbose rebuildBundles   'hubot-google-calendar',
+95 verbose rebuildBundles   'hubot-google-images',
+95 verbose rebuildBundles   'hubot-google-translate',
+95 verbose rebuildBundles   'hubot-gtalk',
+95 verbose rebuildBundles   'hubot-help',
+95 verbose rebuildBundles   'hubot-heroku-keepalive',
+95 verbose rebuildBundles   'hubot-maps',
+95 verbose rebuildBundles   'hubot-motivate',
+95 verbose rebuildBundles   'hubot-principles',
+95 verbose rebuildBundles   'hubot-pugme',
+95 verbose rebuildBundles   'hubot-reaction',
+95 verbose rebuildBundles   'hubot-redis-brain',
+95 verbose rebuildBundles   'hubot-rules',
+95 verbose rebuildBundles   'hubot-scripts',
+95 verbose rebuildBundles   'hubot-shipit',
+95 verbose rebuildBundles   'hubot-spot',
+95 verbose rebuildBundles   'hubot-standup-alarm',
+95 verbose rebuildBundles   'hubot-tell',
+95 verbose rebuildBundles   'hubot-thank-you',
+95 verbose rebuildBundles   'hubot-victory',
+95 verbose rebuildBundles   'time' ]
+96 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-2048
+97 info build /home/cube26/hubot/node_modules/hubot-2048
+98 info preinstall hubot-2048@1.0.1
+99 info linkStuff hubot-2048@1.0.1
+100 silly linkStuff hubot-2048@1.0.1 has /home/cube26/hubot/node_modules as its parent node_modules
+101 verbose linkBins hubot-2048@1.0.1
+102 verbose linkMans hubot-2048@1.0.1
+103 verbose rebuildBundles hubot-2048@1.0.1
+104 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+105 info install hubot-2048@1.0.1
+106 info postinstall hubot-2048@1.0.1
+107 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-9gag
+108 info build /home/cube26/hubot/node_modules/hubot-9gag
+109 info preinstall hubot-9gag@0.2.0
+110 info linkStuff hubot-9gag@0.2.0
+111 silly linkStuff hubot-9gag@0.2.0 has /home/cube26/hubot/node_modules as its parent node_modules
+112 verbose linkBins hubot-9gag@0.2.0
+113 verbose linkMans hubot-9gag@0.2.0
+114 verbose rebuildBundles hubot-9gag@0.2.0
+115 verbose rebuildBundles [ '.bin', 'coffee-script', 'htmlparser', 'jsdom', 'soupselect' ]
+116 info install hubot-9gag@0.2.0
+117 info postinstall hubot-9gag@0.2.0
+118 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-ambush
+119 info build /home/cube26/hubot/node_modules/hubot-ambush
+120 info preinstall hubot-ambush@0.0.3
+121 info linkStuff hubot-ambush@0.0.3
+122 silly linkStuff hubot-ambush@0.0.3 has /home/cube26/hubot/node_modules as its parent node_modules
+123 verbose linkBins hubot-ambush@0.0.3
+124 verbose linkMans hubot-ambush@0.0.3
+125 verbose rebuildBundles hubot-ambush@0.0.3
+126 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+127 info install hubot-ambush@0.0.3
+128 info postinstall hubot-ambush@0.0.3
+129 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-calculator
+130 info build /home/cube26/hubot/node_modules/hubot-calculator
+131 info preinstall hubot-calculator@0.4.0
+132 info linkStuff hubot-calculator@0.4.0
+133 silly linkStuff hubot-calculator@0.4.0 has /home/cube26/hubot/node_modules as its parent node_modules
+134 verbose linkBins hubot-calculator@0.4.0
+135 verbose linkMans hubot-calculator@0.4.0
+136 verbose rebuildBundles hubot-calculator@0.4.0
+137 verbose rebuildBundles [ '.bin', 'coffee-script', 'mathjs' ]
+138 info install hubot-calculator@0.4.0
+139 info postinstall hubot-calculator@0.4.0
+140 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-codinglove
+141 info build /home/cube26/hubot/node_modules/hubot-codinglove
+142 info preinstall hubot-codinglove@0.2.6
+143 info linkStuff hubot-codinglove@0.2.6
+144 silly linkStuff hubot-codinglove@0.2.6 has /home/cube26/hubot/node_modules as its parent node_modules
+145 verbose linkBins hubot-codinglove@0.2.6
+146 verbose linkMans hubot-codinglove@0.2.6
+147 verbose rebuildBundles hubot-codinglove@0.2.6
+148 verbose rebuildBundles [ '.bin', 'cheerio', 'coffee-script', 'he' ]
+149 info install hubot-codinglove@0.2.6
+150 info postinstall hubot-codinglove@0.2.6
+151 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-cute-me
+152 info build /home/cube26/hubot/node_modules/hubot-cute-me
+153 info preinstall hubot-cute-me@1.0.0
+154 info linkStuff hubot-cute-me@1.0.0
+155 silly linkStuff hubot-cute-me@1.0.0 has /home/cube26/hubot/node_modules as its parent node_modules
+156 verbose linkBins hubot-cute-me@1.0.0
+157 verbose linkMans hubot-cute-me@1.0.0
+158 verbose rebuildBundles hubot-cute-me@1.0.0
+159 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+160 info install hubot-cute-me@1.0.0
+161 info postinstall hubot-cute-me@1.0.0
+162 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-devops-reactions
+163 info build /home/cube26/hubot/node_modules/hubot-devops-reactions
+164 info preinstall hubot-devops-reactions@1.0.2
+165 info linkStuff hubot-devops-reactions@1.0.2
+166 silly linkStuff hubot-devops-reactions@1.0.2 has /home/cube26/hubot/node_modules as its parent node_modules
+167 verbose linkBins hubot-devops-reactions@1.0.2
+168 verbose linkMans hubot-devops-reactions@1.0.2
+169 verbose rebuildBundles hubot-devops-reactions@1.0.2
+170 verbose rebuildBundles [ '.bin', 'coffee-script', 'jsdom' ]
+171 info install hubot-devops-reactions@1.0.2
+172 info postinstall hubot-devops-reactions@1.0.2
+173 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-google-calendar
+174 info build /home/cube26/hubot/node_modules/hubot-google-calendar
+175 info preinstall hubot-google-calendar@0.0.2
+176 info linkStuff hubot-google-calendar@0.0.2
+177 silly linkStuff hubot-google-calendar@0.0.2 has /home/cube26/hubot/node_modules as its parent node_modules
+178 verbose linkBins hubot-google-calendar@0.0.2
+179 verbose linkMans hubot-google-calendar@0.0.2
+180 verbose rebuildBundles hubot-google-calendar@0.0.2
+181 verbose rebuildBundles [ 'google-oauth-jwt', 'moment-timezone', 'underscore' ]
+182 info install hubot-google-calendar@0.0.2
+183 info postinstall hubot-google-calendar@0.0.2
+184 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-motivate
+185 info build /home/cube26/hubot/node_modules/hubot-motivate
+186 info preinstall hubot-motivate@3.0.0
+187 info linkStuff hubot-motivate@3.0.0
+188 silly linkStuff hubot-motivate@3.0.0 has /home/cube26/hubot/node_modules as its parent node_modules
+189 verbose linkBins hubot-motivate@3.0.0
+190 verbose linkMans hubot-motivate@3.0.0
+191 verbose rebuildBundles hubot-motivate@3.0.0
+192 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+193 info install hubot-motivate@3.0.0
+194 info postinstall hubot-motivate@3.0.0
+195 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-principles
+196 info build /home/cube26/hubot/node_modules/hubot-principles
+197 info preinstall hubot-principles@1.0.0
+198 info linkStuff hubot-principles@1.0.0
+199 silly linkStuff hubot-principles@1.0.0 has /home/cube26/hubot/node_modules as its parent node_modules
+200 verbose linkBins hubot-principles@1.0.0
+201 verbose linkMans hubot-principles@1.0.0
+202 verbose rebuildBundles hubot-principles@1.0.0
+203 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+204 info install hubot-principles@1.0.0
+205 info postinstall hubot-principles@1.0.0
+206 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-reaction
+207 info build /home/cube26/hubot/node_modules/hubot-reaction
+208 info preinstall hubot-reaction@0.0.6
+209 info linkStuff hubot-reaction@0.0.6
+210 silly linkStuff hubot-reaction@0.0.6 has /home/cube26/hubot/node_modules as its parent node_modules
+211 verbose linkBins hubot-reaction@0.0.6
+212 verbose linkMans hubot-reaction@0.0.6
+213 verbose rebuildBundles hubot-reaction@0.0.6
+214 verbose rebuildBundles [ '.bin', 'cheerio', 'coffee-script', 'request' ]
+215 info install hubot-reaction@0.0.6
+216 info postinstall hubot-reaction@0.0.6
+217 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-spot
+218 info build /home/cube26/hubot/node_modules/hubot-spot
+219 info preinstall hubot-spot@1.0.2
+220 info linkStuff hubot-spot@1.0.2
+221 silly linkStuff hubot-spot@1.0.2 has /home/cube26/hubot/node_modules as its parent node_modules
+222 verbose linkBins hubot-spot@1.0.2
+223 verbose linkMans hubot-spot@1.0.2
+224 verbose rebuildBundles hubot-spot@1.0.2
+225 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+226 info install hubot-spot@1.0.2
+227 info postinstall hubot-spot@1.0.2
+228 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-standup-alarm
+229 info build /home/cube26/hubot/node_modules/hubot-standup-alarm
+230 info preinstall hubot-standup-alarm@0.0.6
+231 info linkStuff hubot-standup-alarm@0.0.6
+232 silly linkStuff hubot-standup-alarm@0.0.6 has /home/cube26/hubot/node_modules as its parent node_modules
+233 verbose linkBins hubot-standup-alarm@0.0.6
+234 verbose linkMans hubot-standup-alarm@0.0.6
+235 verbose rebuildBundles hubot-standup-alarm@0.0.6
+236 verbose rebuildBundles [ 'cron', 'underscore' ]
+237 info install hubot-standup-alarm@0.0.6
+238 info postinstall hubot-standup-alarm@0.0.6
+239 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-tell
+240 info build /home/cube26/hubot/node_modules/hubot-tell
+241 info preinstall hubot-tell@1.2.3
+242 info linkStuff hubot-tell@1.2.3
+243 silly linkStuff hubot-tell@1.2.3 has /home/cube26/hubot/node_modules as its parent node_modules
+244 verbose linkBins hubot-tell@1.2.3
+245 verbose linkMans hubot-tell@1.2.3
+246 verbose rebuildBundles hubot-tell@1.2.3
+247 verbose rebuildBundles [ '.bin', 'coffee-script', 'timeago' ]
+248 info install hubot-tell@1.2.3
+249 info postinstall hubot-tell@1.2.3
+250 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-thank-you
+251 info build /home/cube26/hubot/node_modules/hubot-thank-you
+252 info preinstall hubot-thank-you@0.0.3
+253 info linkStuff hubot-thank-you@0.0.3
+254 silly linkStuff hubot-thank-you@0.0.3 has /home/cube26/hubot/node_modules as its parent node_modules
+255 verbose linkBins hubot-thank-you@0.0.3
+256 verbose linkMans hubot-thank-you@0.0.3
+257 verbose rebuildBundles hubot-thank-you@0.0.3
+258 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+259 info install hubot-thank-you@0.0.3
+260 info postinstall hubot-thank-you@0.0.3
+261 verbose rebuild bundle /home/cube26/hubot/node_modules/hubot-victory
+262 info build /home/cube26/hubot/node_modules/hubot-victory
+263 info preinstall hubot-victory@1.3.0
+264 info linkStuff hubot-victory@1.3.0
+265 silly linkStuff hubot-victory@1.3.0 has /home/cube26/hubot/node_modules as its parent node_modules
+266 verbose linkBins hubot-victory@1.3.0
+267 verbose linkMans hubot-victory@1.3.0
+268 verbose rebuildBundles hubot-victory@1.3.0
+269 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+270 info install hubot-victory@1.3.0
+271 info postinstall hubot-victory@1.3.0
+272 verbose rebuild bundle /home/cube26/hubot/node_modules/time
+273 info build /home/cube26/hubot/node_modules/time
+274 info preinstall time@0.11.3
+275 info linkStuff time@0.11.3
+276 silly linkStuff time@0.11.3 has /home/cube26/hubot/node_modules as its parent node_modules
+277 verbose linkBins time@0.11.3
+278 verbose linkMans time@0.11.3
+279 verbose rebuildBundles time@0.11.3
+280 verbose rebuildBundles [ 'bindings', 'debug', 'nan' ]
+281 info install time@0.11.3
+282 verbose unsafe-perm in lifecycle true
+283 info time@0.11.3 Failed to exec install script
+284 verbose stack Error: time@0.11.3 install: `node-gyp rebuild`
+284 verbose stack Exit status 1
+284 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+284 verbose stack     at EventEmitter.emit (events.js:110:17)
+284 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+284 verbose stack     at ChildProcess.emit (events.js:110:17)
+284 verbose stack     at maybeClose (child_process.js:1015:16)
+284 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+285 verbose pkgid time@0.11.3
+286 verbose cwd /home/cube26/hubot/bin
+287 error Linux 4.1.0-x86_64-linode59
+288 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+289 error node v0.12.4
+290 error npm  v2.10.1
+291 error code ELIFECYCLE
+292 error time@0.11.3 install: `node-gyp rebuild`
+292 error Exit status 1
+293 error Failed at the time@0.11.3 install script 'node-gyp rebuild'.
+293 error This is most likely a problem with the time package,
+293 error not with npm itself.
+293 error Tell the author that this fails on your system:
+293 error     node-gyp rebuild
+293 error You can get their info via:
+293 error     npm owner ls time
+293 error There is likely additional logging output above.
+294 verbose exit [ 1, true ]

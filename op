@@ -1,0 +1,10 @@
+
+> time@0.11.3 install /home/cube26/hubot/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory `/home/cube26/hubot/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  SOLINK_MODULE(target) Release/obj.target/time.node: Finished
+  COPY Release/time.node
+make: Leaving directory `/home/cube26/hubot/node_modules/time/build'

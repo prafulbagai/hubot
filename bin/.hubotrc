@@ -1,0 +1,12 @@
+#---------------- HUBOT CONFIG -----------------------------------
+
+export HUBOT_GTALK_USERNAME="hubot@cube26.com"
+export HUBOT_GTALK_PASSWORD="Cube2626"
+
+export HUBOT_ADAPTER="gtalk"
+export HUBOT_PATH="/home/cube26/hubot"
+
+#---------------- END HUBOT CONFIG --------------------------------
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
